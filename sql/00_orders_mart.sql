@@ -1,6 +1,6 @@
 -- Витрина заказов: одна строка = один заказ.
 -- Основа для остальных запросов проекта.
--- В DBeaver/pgAdmin создавалась внутри BEGIN ... COMMIT; проверка: COUNT(*) = COUNT(DISTINCT order_id) = 99 441.
+-- В pgAdmin создавалась внутри BEGIN ... COMMIT; проверка: COUNT(*) = COUNT(DISTINCT order_id) = 99 441.
 
 -- name: orders_mart
 CREATE OR REPLACE VIEW orders_mart AS
