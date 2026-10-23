@@ -75,7 +75,7 @@ olist-analysis/
 
 ## Как запустить
 
-1. Скачать CSV с Kaggle и загрузить их в PostgreSQL (я загружала через импорт в DBeaver). Таблицы: `orders`, `order_items`, `customers`, `order_reviews`, `products`.
+1. Скачать CSV с Kaggle и загрузить их в PostgreSQL (я загружала через импорт в pgAdmin). Таблицы: `orders`, `order_items`, `customers`, `order_reviews`, `products`.
 2. Установить зависимости: `pip install -r requirements.txt`.
 3. Скопировать `.env.example` в `.env` и вписать пароль от базы.
 4. Открыть `notebooks/olist_analysis.ipynb` и выполнить все ячейки.
